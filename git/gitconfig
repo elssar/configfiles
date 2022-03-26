@@ -1,0 +1,20 @@
+[user]
+	name = Akshay Bist
+	email = elssar@altrawcode.com
+[core]
+	editor = nvim
+    pager = delta
+[init]
+	defaultBranch = main
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default

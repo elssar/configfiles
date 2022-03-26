@@ -1,0 +1,17 @@
+#####################################################################
+##                          Common Config                          ##
+#####################################################################
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 4
+    IdentitiesOnly yes
+    PreferredAuthentications publickey
+
+#####################################################################
+##                          Personal                               ##
+#####################################################################
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_primary
+
