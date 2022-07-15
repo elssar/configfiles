@@ -15,3 +15,8 @@ Host github.com
     User git
     IdentityFile ~/.ssh/id_primary
 
+Host gitlab.com
+    HostName gitlab.com
+    User git
+    IdentityFile ~/.ssh/id_primary
+
