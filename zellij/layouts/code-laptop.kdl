@@ -1,0 +1,16 @@
+layout {
+    swap_tiled_layout name="code-laptop" {
+        tab max_panes=2 {
+            pane name="editor" size="70%"
+            pane name="term"
+        }
+        tab {
+            pane name="editor" size="70%"
+            pane split_direction="vertical" {
+                pane name="term"
+                pane name="runner" size="35%"
+            }
+        }
+    }
+}
+
